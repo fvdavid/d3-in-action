@@ -35,7 +35,7 @@ export class AppMenu {
                             {
                                 label: 'Heatmap',
                                 icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/heatmap']
+                                routerLink: ['/ranking/heatmap']
                             },
                             {
                                 label: 'Correlogram',
