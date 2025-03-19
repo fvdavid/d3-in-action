@@ -30,7 +30,7 @@ export class AppMenu {
                             {
                                 label: 'Violin',
                                 icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/violin']
+                                routerLink: ['/correlation/violin']
                             },
                             {
                                 label: 'Density',
