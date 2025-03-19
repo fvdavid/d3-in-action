@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ViolinComponent } from './violin.component';
+import { ScatterplotComponent } from './scatterplot.component';
 
-describe('ViolinComponent', () => {
-  let component: ViolinComponent;
-  let fixture: ComponentFixture<ViolinComponent>;
+describe('ScatterplotComponent', () => {
+  let component: ScatterplotComponent;
+  let fixture: ComponentFixture<ScatterplotComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ViolinComponent]
+      imports: [ScatterplotComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ViolinComponent);
+    fixture = TestBed.createComponent(ScatterplotComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

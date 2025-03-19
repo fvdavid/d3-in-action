@@ -24,34 +24,39 @@ export class AppMenu {
                 label: 'D3.js',
                 items: [
                     {
-                        label: 'Correlation',
+                        label: 'Ranking',
                         icon: 'pi pi-fw pi-home',
                         items: [
                             {
-                                label: 'Violin',
+                                label: 'Scatter',
                                 icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/correlation/violin']
+                                routerLink: ['/ranking/scatter-plot']
                             },
                             {
-                                label: 'Density',
+                                label: 'Heatmap',
                                 icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/auth/error']
+                                routerLink: ['/heatmap']
                             },
                             {
-                                label: 'Histogram',
+                                label: 'Correlogram',
                                 icon: 'pi pi-fw pi-lock',
-                                routerLink: ['/auth/access']
+                                routerLink: ['/correlogram']
                             },
                             {
-                                label: 'Boxplot',
+                                label: 'Bubble',
                                 icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/auth/error']
+                                routerLink: ['/bubble']
                             },
                             {
-                                label: 'Ridgeline',
+                                label: 'Connected scatter',
                                 icon: 'pi pi-fw pi-lock',
-                                routerLink: ['/auth/access']
+                                routerLink: ['/connected-scatter']
                             }
+                            // {
+                            //     label: 'Density 2d',
+                            //     icon: 'pi pi-fw pi-lock',
+                            //     routerLink: ['/auth/access']
+                            // }
                         ]
                     }
                 ]
