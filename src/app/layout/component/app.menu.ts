@@ -46,17 +46,17 @@ export class AppMenu {
                                 label: 'Bubble',
                                 icon: 'pi pi-fw pi-times-circle',
                                 routerLink: ['/correlation/bubble']
-                            }
+                            },
                             // {
                             //     label: 'Connected scatter',
                             //     icon: 'pi pi-fw pi-lock',
                             //     routerLink: ['/correlation-scatter']
                             // }
-                            // {
-                            //     label: 'Density 2d',
-                            //     icon: 'pi pi-fw pi-lock',
-                            //     routerLink: ['/auth/access']
-                            // }
+                            {
+                                label: 'Density 2d',
+                                icon: 'pi pi-fw pi-lock',
+                                routerLink: ['/correlation/density']
+                            }
                         ]
                     }
                 ]
