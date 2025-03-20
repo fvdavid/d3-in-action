@@ -21,7 +21,7 @@ export class HeatmapComponent implements OnInit {
 
     getTheData() {
         d3.csv('https://raw.githubusercontent.com/fvdavid/d3-in-action/refs/heads/main/data/heatmap_data.csv').then((d: any) => {
-            d.sort((a: any, b: any) => a.Value - b.Value);
+            // d.sort((a: any, b: any) => a.Value - b.Value);
             this.createSvg(d);
         });
     }

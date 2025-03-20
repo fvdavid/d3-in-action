@@ -45,7 +45,7 @@ export class AppMenu {
                             {
                                 label: 'Bubble',
                                 icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/bubble']
+                                routerLink: ['/ranking/bubble']
                             },
                             {
                                 label: 'Connected scatter',

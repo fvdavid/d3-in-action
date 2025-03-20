@@ -13,5 +13,9 @@ export default [
         path: 'correlogram',
         loadComponent: () => import('./correlogram/correlogram.component').then((c) => c.CorrelogramComponent)
     },
+    {
+        path: 'bubble',
+        loadComponent: () => import('./bubble/bubble.component').then((b) => b.BubbleComponent)
+    },
     { path: '**', redirectTo: '/notfound' }
 ] as Routes;
