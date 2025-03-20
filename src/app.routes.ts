@@ -14,6 +14,10 @@ export const appRoutes: Routes = [
                 loadChildren: () => import('./app/pages/pages.routes')
             },
             {
+                path: 'correlation',
+                loadChildren: () => import('./app/pages/correlation/correlation.routes')
+            },
+            {
                 path: 'ranking',
                 loadChildren: () => import('./app/pages/ranking/ranking.routes')
             }

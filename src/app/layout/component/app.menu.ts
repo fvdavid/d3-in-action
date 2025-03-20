@@ -24,34 +24,34 @@ export class AppMenu {
                 label: 'D3.js',
                 items: [
                     {
-                        label: 'Ranking',
+                        label: 'Correlation',
                         icon: 'pi pi-fw pi-home',
                         items: [
                             {
                                 label: 'Scatter',
                                 icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/ranking/scatter-plot']
+                                routerLink: ['/correlation/scatter-plot']
                             },
                             {
                                 label: 'Heatmap',
                                 icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/ranking/heatmap']
+                                routerLink: ['/correlation/heatmap']
                             },
                             {
                                 label: 'Correlogram',
                                 icon: 'pi pi-fw pi-lock',
-                                routerLink: ['/ranking/correlogram']
+                                routerLink: ['/correlation/correlogram']
                             },
                             {
                                 label: 'Bubble',
                                 icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/ranking/bubble']
-                            },
-                            {
-                                label: 'Connected scatter',
-                                icon: 'pi pi-fw pi-lock',
-                                routerLink: ['/connected-scatter']
+                                routerLink: ['/correlation/bubble']
                             }
+                            // {
+                            //     label: 'Connected scatter',
+                            //     icon: 'pi pi-fw pi-lock',
+                            //     routerLink: ['/correlation-scatter']
+                            // }
                             // {
                             //     label: 'Density 2d',
                             //     icon: 'pi pi-fw pi-lock',
