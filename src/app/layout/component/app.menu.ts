@@ -40,7 +40,7 @@ export class AppMenu {
                             {
                                 label: 'Correlogram',
                                 icon: 'pi pi-fw pi-lock',
-                                routerLink: ['/correlogram']
+                                routerLink: ['/ranking/correlogram']
                             },
                             {
                                 label: 'Bubble',
