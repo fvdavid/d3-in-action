@@ -58,6 +58,17 @@ export class AppMenu {
                                 routerLink: ['/correlation/density']
                             }
                         ]
+                    },
+                    {
+                        label: 'Ranking',
+                        icon: 'pi pi-fw pi-home',
+                        items: [
+                            {
+                                label: 'Scatter',
+                                icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['/ranking/barchart']
+                            },
+                        ]
                     }
                 ]
             },
