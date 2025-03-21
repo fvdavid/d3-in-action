@@ -68,6 +68,11 @@ export class AppMenu {
                                 icon: 'pi pi-fw pi-sign-in',
                                 routerLink: ['/ranking/barchart']
                             },
+                            {
+                                label: 'Lollipop',
+                                icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['/ranking/lollipop']
+                            }
                         ]
                     }
                 ]
