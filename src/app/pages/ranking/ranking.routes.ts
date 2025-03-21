@@ -9,5 +9,9 @@ export default [
         path: 'lollipop',
         loadComponent: () => import('./lollipop/lollipop.component').then((l) => l.LollipopComponent)
     },
+    {
+        path: 'circular',
+        loadComponent: () => import('./circular/circular.component').then((c) => c.CircularComponent)
+    },
     { path: '**', redirectTo: '/notfound' }
 ] as Routes;

@@ -72,6 +72,11 @@ export class AppMenu {
                                 label: 'Lollipop',
                                 icon: 'pi pi-fw pi-sign-in',
                                 routerLink: ['/ranking/lollipop']
+                            },
+                            {
+                                label: 'Circular',
+                                icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['/ranking/circular']
                             }
                         ]
                     }
