@@ -20,6 +20,10 @@ export const appRoutes: Routes = [
             {
                 path: 'ranking',
                 loadChildren: () => import('./app/pages/ranking/ranking.routes')
+            },
+            {
+                path: 'pow',
+                loadChildren: () => import('./app/pages/pow/pow.routes')
             }
         ]
     },

@@ -79,6 +79,30 @@ export class AppMenu {
                                 routerLink: ['/ranking/circular']
                             }
                         ]
+                    },
+                    {
+                        label: 'Part of a whole',
+                        icon: 'pi pi-fw pi-home',
+                        items: [
+                            {
+                                label: 'Treemap',
+                                icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['/pow/treemap']
+                            },
+                            {
+                                label: 'Doughnut',
+                                icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['/pow/lollipop']
+                            },
+                            {
+                                label: 'Pie chart',
+                                icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['/pow/circular']
+                            }
+
+                            // Dendrogram
+                            // Circular packing
+                        ]
                     }
                 ]
             },

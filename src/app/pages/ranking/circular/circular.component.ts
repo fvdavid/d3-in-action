@@ -23,7 +23,7 @@ export class CircularComponent implements OnInit {
     }
 
     getTheData() {
-        d3.csv('https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum.csv').then((d: any) => {
+        d3.csv('https://raw.githubusercontent.com/fvdavid/d3-in-action/refs/heads/main/data/OneCatOneNum.csv').then((d: any) => {
             this.createSvg(d);
         });
     }
