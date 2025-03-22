@@ -92,7 +92,7 @@ export class AppMenu {
                             {
                                 label: 'Doughnut',
                                 icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/pow/lollipop']
+                                routerLink: ['/pow/doughnut']
                             },
                             {
                                 label: 'Pie chart',
