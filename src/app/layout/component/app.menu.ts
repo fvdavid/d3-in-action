@@ -104,7 +104,6 @@ export class AppMenu {
                                 icon: 'pi pi-fw pi-sign-in',
                                 routerLink: ['/pow/dendrogram']
                             }
-                            // Circular packing
                         ]
                     }
                 ]
