@@ -9,5 +9,9 @@ export default [
         path: 'doughnut',
         loadComponent: () => import('./doughnut/doughnut.component').then((d) => d.DoughnutComponent)
     },
+    {
+        path: 'pie',
+        loadComponent: () => import('./pie/pie.component').then(p => p.PieComponent)
+    },
     { path: '**', redirectTo: '/notfound' }
 ] as Routes;

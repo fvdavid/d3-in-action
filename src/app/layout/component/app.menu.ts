@@ -97,7 +97,7 @@ export class AppMenu {
                             {
                                 label: 'Pie chart',
                                 icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/pow/circular']
+                                routerLink: ['/pow/pie']
                             }
 
                             // Dendrogram
