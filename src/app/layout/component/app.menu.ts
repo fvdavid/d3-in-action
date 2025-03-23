@@ -98,9 +98,12 @@ export class AppMenu {
                                 label: 'Pie chart',
                                 icon: 'pi pi-fw pi-sign-in',
                                 routerLink: ['/pow/pie']
+                            },
+                            {
+                                label: 'Dendrogram',
+                                icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['/pow/dendrogram']
                             }
-
-                            // Dendrogram
                             // Circular packing
                         ]
                     }

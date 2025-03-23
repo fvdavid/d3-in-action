@@ -11,7 +11,11 @@ export default [
     },
     {
         path: 'pie',
-        loadComponent: () => import('./pie/pie.component').then(p => p.PieComponent)
+        loadComponent: () => import('./pie/pie.component').then((p) => p.PieComponent)
+    },
+    {
+        path: 'dendrogram',
+        loadComponent: () => import('./dendrogram/dendrogram.component').then((d) => d.DendrogramComponent)
     },
     { path: '**', redirectTo: '/notfound' }
 ] as Routes;
