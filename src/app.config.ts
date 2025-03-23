@@ -10,24 +10,21 @@ export const appConfig: ApplicationConfig = {
     providers: [
         provideRouter(
             appRoutes,
-            withInMemoryScrolling(
-                {
-                    anchorScrolling: 'enabled',
-                    scrollPositionRestoration: 'enabled'
-                }
-            ),
-        withEnabledBlockingInitialNavigation()),
+            withInMemoryScrolling({
+                anchorScrolling: 'enabled',
+                scrollPositionRestoration: 'enabled'
+            }),
+            withEnabledBlockingInitialNavigation()
+        ),
         provideHttpClient(withFetch()),
         provideAnimationsAsync(),
-        providePrimeNG(
-            {
-                theme: {
-                    preset: Aura,
-                    options: {
-                        darkModeSelector: '.app-dark'
-                    }
+        providePrimeNG({
+            theme: {
+                preset: Aura,
+                options: {
+                    darkModeSelector: '.app-dark'
                 }
             }
-        )
+        }),
     ]
 };
