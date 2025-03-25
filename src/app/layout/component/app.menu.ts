@@ -119,6 +119,11 @@ export class AppMenu {
                         routerLink: ['echarts/graph']
                     },
                     {
+                        label: 'Heatmap',
+                        // icon: 'pi pi-fw pi-sign-in',
+                        routerLink: ['echarts/heatmap']
+                    },
+                    {
                         label: 'Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://echarts.apache.org/en/index.html',
