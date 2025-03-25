@@ -124,6 +124,10 @@ export class AppMenu {
                         routerLink: ['echarts/heatmap']
                     },
                     {
+                        label: 'Gauge',
+                        routerLink: ['echarts/gauge']
+                    },
+                    {
                         label: 'Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://echarts.apache.org/en/index.html',

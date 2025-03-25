@@ -10,6 +10,10 @@ export default [
         loadComponent: () => import('./heatmap/heatmap.component').then((h) => h.HeatmapComponent)
     },
     {
+        path: 'gauge',
+        loadComponent: () => import('./gauge/gauge.component').then((g) => g.GaugeComponent)
+    },
+    {
         path: '**',
         redirectTo: '/notfound'
     }
