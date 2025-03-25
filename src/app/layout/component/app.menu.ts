@@ -128,6 +128,10 @@ export class AppMenu {
                         routerLink: ['echarts/gauge']
                     },
                     {
+                        label: 'Graphic',
+                        routerLink: ['echarts/graphic']
+                    },
+                    {
                         label: 'Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://echarts.apache.org/en/index.html',

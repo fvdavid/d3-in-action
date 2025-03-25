@@ -14,6 +14,10 @@ export default [
         loadComponent: () => import('./gauge/gauge.component').then((g) => g.GaugeComponent)
     },
     {
+        path: 'graphic',
+        loadComponent: () => import('./graphic/graphic.component').then((gr) => gr.EcGraphicComponent)
+    },
+    {
         path: '**',
         redirectTo: '/notfound'
     }
