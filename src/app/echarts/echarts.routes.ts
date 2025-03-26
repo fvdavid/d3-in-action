@@ -22,6 +22,10 @@ export default [
         loadComponent: () => import('./sunburst/sunburst.component').then((s) => s.SunburstComponent)
     },
     {
+        path: 'funnel',
+        loadComponent: () => import('./funnel/funnel.component').then((f) => f.FunnelComponent)
+    },
+    {
         path: '**',
         redirectTo: '/notfound'
     }
