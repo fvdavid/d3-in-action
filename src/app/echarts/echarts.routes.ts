@@ -18,6 +18,10 @@ export default [
         loadComponent: () => import('./graphic/graphic.component').then((gr) => gr.EcGraphicComponent)
     },
     {
+        path: 'sunburst',
+        loadComponent: () => import('./sunburst/sunburst.component').then((s) => s.SunburstComponent)
+    },
+    {
         path: '**',
         redirectTo: '/notfound'
     }

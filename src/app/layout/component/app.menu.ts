@@ -132,6 +132,10 @@ export class AppMenu {
                         routerLink: ['echarts/graphic']
                     },
                     {
+                        label: 'Sunburst',
+                        routerLink: ['echarts/sunburst']
+                    },
+                    {
                         label: 'Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://echarts.apache.org/en/index.html',
