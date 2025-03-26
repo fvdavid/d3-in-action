@@ -21,7 +21,7 @@ export class TreemapComponent implements OnInit {
     }
 
     getTheData() {
-        d3.csv('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_hierarchy_1level.csv').then((d: any) => {
+        d3.csv('https://raw.githubusercontent.com/fvdavid/d3-in-action/refs/heads/main/data/data_hierarchy_level1.csv').then((d: any) => {
             this.createSvg(d);
         });
     }

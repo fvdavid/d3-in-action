@@ -1,4 +1,4 @@
-import { provideHttpClient, withFetch } from '@angular/common/http';
+import { provideHttpClient, withFetch, withInterceptorsFromDi } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideRouter, withEnabledBlockingInitialNavigation, withInMemoryScrolling } from '@angular/router';
@@ -10,24 +10,22 @@ export const appConfig: ApplicationConfig = {
     providers: [
         provideRouter(
             appRoutes,
-            withInMemoryScrolling(
-                {
-                    anchorScrolling: 'enabled',
-                    scrollPositionRestoration: 'enabled'
-                }
-            ),
-        withEnabledBlockingInitialNavigation()),
-        provideHttpClient(withFetch()),
+            withInMemoryScrolling({
+                anchorScrolling: 'enabled',
+                scrollPositionRestoration: 'enabled'
+            }),
+            withEnabledBlockingInitialNavigation()
+        ),
+        provideHttpClient(withFetch(), withInterceptorsFromDi()),
         provideAnimationsAsync(),
-        providePrimeNG(
-            {
-                theme: {
-                    preset: Aura,
-                    options: {
-                        darkModeSelector: '.app-dark'
-                    }
+        providePrimeNG({
+            theme: {
+                preset: Aura,
+                options: {
+                    darkModeSelector: '.app-dark'
                 }
             }
-        )
+        }),
+        provideAnimationsAsync()
     ]
 };

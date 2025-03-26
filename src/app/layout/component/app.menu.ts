@@ -25,86 +25,125 @@ export class AppMenu {
                 items: [
                     {
                         label: 'Correlation',
-                        icon: 'pi pi-fw pi-home',
+                        // icon: 'pi pi-fw pi-home',
                         items: [
                             {
                                 label: 'Scatter',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/correlation/scatter-plot']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/correlation/scatter-plot']
                             },
                             {
                                 label: 'Heatmap',
-                                icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/correlation/heatmap']
+                                // icon: 'pi pi-fw pi-times-circle',
+                                routerLink: ['pages/correlation/heatmap']
                             },
                             {
                                 label: 'Correlogram',
-                                icon: 'pi pi-fw pi-lock',
-                                routerLink: ['/correlation/correlogram']
+                                // icon: 'pi pi-fw pi-lock',
+                                routerLink: ['pages/correlation/correlogram']
                             },
                             {
                                 label: 'Bubble',
-                                icon: 'pi pi-fw pi-times-circle',
-                                routerLink: ['/correlation/bubble']
+                                // icon: 'pi pi-fw pi-times-circle',
+                                routerLink: ['pages/correlation/bubble']
                             },
-                            // {
-                            //     label: 'Connected scatter',
-                            //     icon: 'pi pi-fw pi-lock',
-                            //     routerLink: ['/correlation-scatter']
-                            // }
                             {
                                 label: 'Density 2d',
-                                icon: 'pi pi-fw pi-lock',
-                                routerLink: ['/correlation/density']
+                                // icon: 'pi pi-fw pi-lock',
+                                routerLink: ['pages/correlation/density']
                             }
                         ]
                     },
                     {
                         label: 'Ranking',
-                        icon: 'pi pi-fw pi-home',
+                        // icon: 'pi pi-fw pi-home',
                         items: [
                             {
                                 label: 'Scatter',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/ranking/barchart']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/ranking/barchart']
                             },
                             {
                                 label: 'Lollipop',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/ranking/lollipop']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/ranking/lollipop']
                             },
                             {
                                 label: 'Circular',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/ranking/circular']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/ranking/circular']
                             }
                         ]
                     },
                     {
                         label: 'Part of a whole',
-                        icon: 'pi pi-fw pi-home',
+                        // icon: 'pi pi-fw pi-home',
                         items: [
                             {
                                 label: 'Treemap',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/pow/treemap']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/pow/treemap']
                             },
                             {
                                 label: 'Doughnut',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/pow/doughnut']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/pow/doughnut']
                             },
                             {
                                 label: 'Pie chart',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/pow/pie']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/pow/pie']
                             },
                             {
                                 label: 'Dendrogram',
-                                icon: 'pi pi-fw pi-sign-in',
-                                routerLink: ['/pow/dendrogram']
+                                // icon: 'pi pi-fw pi-sign-in',
+                                routerLink: ['pages/pow/dendrogram']
                             }
                         ]
+                    },
+                    {
+                        label: 'Website',
+                        // icon: 'pi pi-fw pi-sign-in',
+                        url: 'https://d3js.org/',
+                        target: '_blank'
+                    }
+                ]
+            },
+
+            {
+                label: 'echarts',
+                items: [
+                    {
+                        label: 'Graph',
+                        // icon: 'pi pi-fw pi-sign-in',
+                        routerLink: ['echarts/graph']
+                    },
+                    {
+                        label: 'Heatmap',
+                        // icon: 'pi pi-fw pi-sign-in',
+                        routerLink: ['echarts/heatmap']
+                    },
+                    {
+                        label: 'Gauge',
+                        routerLink: ['echarts/gauge']
+                    },
+                    {
+                        label: 'Graphic',
+                        routerLink: ['echarts/graphic']
+                    },
+                    {
+                        label: 'Sunburst',
+                        routerLink: ['echarts/sunburst']
+                    },
+                    {
+                        label: 'Funnel',
+                        routerLink: ['echarts/funnel']
+                    },
+                    {
+                        label: 'Website',
+                        // icon: 'pi pi-fw pi-sign-in',
+                        url: 'https://echarts.apache.org/en/index.html',
+                        target: '_blank'
                     }
                 ]
             },

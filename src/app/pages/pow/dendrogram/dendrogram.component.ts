@@ -16,7 +16,7 @@ export class DendrogramComponent implements OnInit {
     }
 
     getTheData() {
-        d3.json('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_dendrogram.json').then((d: any) => {
+        d3.json('https://raw.githubusercontent.com/fvdavid/d3-in-action/refs/heads/main/data/data_dendrogram.json').then((d: any) => {
             this.createSvg(d);
         });
     }
