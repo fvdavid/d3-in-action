@@ -1,0 +1,16 @@
+[debug] [2025-03-26T13:01:10.623Z] ----------------------------------------------------------------------
+[debug] [2025-03-26T13:01:10.628Z] Command:       /opt/homebrew/Cellar/node@20/20.19.0_1/bin/node /opt/homebrew/bin/firebase deploy --only hosting:d3-action
+[debug] [2025-03-26T13:01:10.628Z] CLI Version:   13.35.1
+[debug] [2025-03-26T13:01:10.628Z] Platform:      darwin
+[debug] [2025-03-26T13:01:10.628Z] Node Version:  v20.19.0
+[debug] [2025-03-26T13:01:10.628Z] Time:          Wed Mar 26 2025 20:01:10 GMT+0700 (Western Indonesia Time)
+[debug] [2025-03-26T13:01:10.628Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-26T13:01:10.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-26T13:01:10.727Z] > authorizing via signed-in user (saddamtbg@gmail.com)
+[debug] [2025-03-26T13:01:10.727Z] [iam] checking project fvupwork-9c8ab for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-03-26T13:01:10.727Z] Checked if tokens are valid: true, expires at: 1742997435516
+[debug] [2025-03-26T13:01:10.727Z] Checked if tokens are valid: true, expires at: 1742997435516
+[debug] [2025-03-26T13:01:10.728Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fvupwork-9c8ab:testIamPermissions [none]
+[debug] [2025-03-26T13:01:10.728Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fvupwork-9c8ab:testIamPermissions x-goog-quota-user=projects/fvupwork-9c8ab
+[debug] [2025-03-26T13:01:10.728Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fvupwork-9c8ab:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
