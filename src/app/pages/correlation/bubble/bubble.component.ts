@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FluidModule } from 'primeng/fluid';
 import * as d3 from 'd3';
 
 @Component({
     selector: 'app-bubble',
-    imports: [FluidModule],
+    imports: [],
     templateUrl: './bubble.component.html',
     styleUrl: './bubble.component.scss'
 })

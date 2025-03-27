@@ -1,10 +1,9 @@
-import { FluidModule } from 'primeng/fluid';
 import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 
 @Component({
     selector: 'app-scatterplot',
-    imports: [FluidModule],
+    imports: [],
     templateUrl: './scatterplot.component.html',
     styleUrl: './scatterplot.component.scss'
 })

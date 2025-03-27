@@ -1,12 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FluidModule } from 'primeng/fluid';
 import * as d3 from 'd3';
-
-import * as d3Scale from 'd3-scale';
 
 @Component({
     selector: 'app-correlogram',
-    imports: [FluidModule],
+    imports: [],
     templateUrl: './correlogram.component.html',
     styleUrl: './correlogram.component.scss'
 })

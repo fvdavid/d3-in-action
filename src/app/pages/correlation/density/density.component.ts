@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
-import { FluidModule } from 'primeng/fluid';
 
 @Component({
     selector: 'app-density',
-    imports: [FluidModule],
+    imports: [],
     templateUrl: './density.component.html',
     styleUrl: './density.component.scss'
 })

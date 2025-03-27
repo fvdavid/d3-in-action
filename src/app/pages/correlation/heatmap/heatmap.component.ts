@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
-import { FluidModule } from 'primeng/fluid';
 
 @Component({
     selector: 'app-heatmap',
-    imports: [FluidModule],
+    imports: [],
     templateUrl: './heatmap.component.html',
     styleUrl: './heatmap.component.scss'
 })
