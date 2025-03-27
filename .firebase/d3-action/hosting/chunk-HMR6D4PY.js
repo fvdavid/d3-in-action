@@ -1,5 +1,0 @@
-import{$ as y,ca as v}from"./chunk-KIRPRCXL.js";import{q as g}from"./chunk-7X44HFL5.js";import{Bb as l,Cb as p,O as r,P as c,Tb as m,U as a,Wa as s,Xa as d,_a as u,ca as i,jb as f}from"./chunk-Q3C673SS.js";var h=["*"],D=({dt:e})=>`
-    .p-fluid{
-        width:100%
-    }
-`,M={root:"p-fluid"},F=(()=>{class e extends y{name="fluid";classes=M;theme=D;static \u0275fac=(()=>{let t;return function(o){return(t||(t=i(e)))(o||e)}})();static \u0275prov=r({token:e,factory:e.\u0275fac})}return e})();var j=(()=>{class e extends v{_componentStyle=a(F);static \u0275fac=(()=>{let t;return function(o){return(t||(t=i(e)))(o||e)}})();static \u0275cmp=s({type:e,selectors:[["p-fluid"]],hostVars:2,hostBindings:function(n,o){n&2&&f("p-fluid",!0)},features:[m([F]),u],ngContentSelectors:h,decls:1,vars:0,template:function(n,o){n&1&&(l(),p(0))},dependencies:[g],encapsulation:2,changeDetection:0})}return e})(),k=(()=>{class e{static \u0275fac=function(n){return new(n||e)};static \u0275mod=d({type:e});static \u0275inj=c({imports:[j]})}return e})();export{j as a,k as b};

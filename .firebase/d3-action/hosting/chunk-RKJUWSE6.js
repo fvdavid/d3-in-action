@@ -1,1 +1,0 @@
-import"./chunk-JKOY2XUY.js";var o=[{path:"correlation",loadChildren:()=>import("./chunk-YAKHVRUT.js")},{path:"ranking",loadChildren:()=>import("./chunk-HQAJOKRZ.js")},{path:"pow",loadChildren:()=>import("./chunk-XWBZLXSR.js")},{path:"**",redirectTo:"/notfound"}];export{o as default};
