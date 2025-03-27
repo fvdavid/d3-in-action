@@ -1,23 +1,23 @@
 import { Component } from '@angular/core';
-import { NotificationsWidget } from './components/notificationswidget';
-import { StatsWidget } from './components/statswidget';
-import { RecentSalesWidget } from './components/recentsaleswidget';
-import { BestSellingWidget } from './components/bestsellingwidget';
-import { RevenueStreamWidget } from './components/revenuestreamwidget';
 
 @Component({
     selector: 'app-dashboard',
-    imports: [StatsWidget, RecentSalesWidget, BestSellingWidget, RevenueStreamWidget, NotificationsWidget],
+    imports: [],
     template: `
-        <div class="grid grid-cols-12 gap-8">
-            <app-stats-widget class="contents" />
-            <div class="col-span-12 xl:col-span-6">
-                <app-recent-sales-widget />
-                <app-best-selling-widget />
-            </div>
-            <div class="col-span-12 xl:col-span-6">
-                <app-revenue-stream-widget />
-                <app-notifications-widget />
+        <div class="grid grid-cols-6 gap-4 mt-60">
+            <div class="col-span-4 col-start-2">
+                <div class="mb-0">
+                    <div class="flex justify-between items-center mb-4">
+                        <div>
+                            <div class="text-surface-900 dark:text-surface-0 font-medium text-xl">
+                                <p class="text-4xl">The JavaScript library for bespoke data visualization</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center bg-blue-100 dark:bg-blue-400/10 rounded-border" style="width: 8rem; height: 8rem">
+                            <img src="https://d3js.org/logo.svg" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     `
