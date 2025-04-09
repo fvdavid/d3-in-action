@@ -156,6 +156,10 @@ export class AppMenu {
                         routerLink: ['/ag-grid/table']
                     },
                     {
+                        label: 'Chart',
+                        routerLink: ['/ag-grid/chart']
+                    },
+                    {
                         label: 'AG Grid Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://www.ag-grid.com/',
