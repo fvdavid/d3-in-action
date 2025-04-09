@@ -16,6 +16,10 @@ export const appRoutes: Routes = [
             {
                 path: 'echarts',
                 loadChildren: () => import('./app/echarts/echarts.routes')
+            },
+            {
+                path: 'ag-grid',
+                loadChildren: () => import('./app/ag-grid/ag-grid.routes')
             }
         ]
     },

@@ -102,7 +102,7 @@ export class AppMenu {
                         ]
                     },
                     {
-                        label: 'Website',
+                        label: 'D3js Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://d3js.org/',
                         target: '_blank'
@@ -140,9 +140,25 @@ export class AppMenu {
                         routerLink: ['echarts/funnel']
                     },
                     {
-                        label: 'Website',
+                        label: 'Echarts Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://echarts.apache.org/en/index.html',
+                        target: '_blank'
+                    }
+                ]
+            },
+
+            {
+                label: 'Ag Grid',
+                items: [
+                    {
+                        label: 'Table',
+                        routerLink: ['/ag-grid/table']
+                    },
+                    {
+                        label: 'AG Grid Website',
+                        // icon: 'pi pi-fw pi-sign-in',
+                        url: 'https://www.ag-grid.com/',
                         target: '_blank'
                     }
                 ]
