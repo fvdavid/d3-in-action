@@ -20,6 +20,18 @@ export const appRoutes: Routes = [
             {
                 path: 'ag-grid',
                 loadChildren: () => import('./app/ag-grid/ag-grid.routes')
+            },
+            {
+                path: 'ng-three',
+                // loadComponent: () => import('./app/experience/stars/stars.component').then((s) => s.StarsComponent),
+                loadChildren: () => import('./app/threejs/threejs.routes'),
+                data: {
+                    credits: {
+                        title: 'Stars',
+                        link: 'https://pmndrs.github.io/examples/demos/gatsby-stars',
+                        class: 'text-white'
+                    }
+                }
             }
         ]
     },

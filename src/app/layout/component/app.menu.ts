@@ -171,6 +171,26 @@ export class AppMenu {
             },
 
             {
+                label: 'Threejs',
+                items: [
+                    {
+                        label: 'Box',
+                        routerLink: ['/ng-three/box']
+                    },
+                    {
+                        label: 'home',
+                        routerLink: ['/ng-three/home']
+                    },
+                    {
+                        label: 'AG Grid Website',
+                        // icon: 'pi pi-fw pi-sign-in',
+                        url: 'https://www.ag-grid.com/',
+                        target: '_blank'
+                    }
+                ]
+            },
+
+            {
                 label: 'Get Started',
                 items: [
                     {
