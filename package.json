@@ -38,6 +38,7 @@
     "swiper": "^11.2.6",
     "tailwindcss-primeui": "^0.5.1",
     "three": "^0.171.0",
+    "three-stdlib": "^2.35.15",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
