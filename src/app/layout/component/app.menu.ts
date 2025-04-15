@@ -178,8 +178,8 @@ export class AppMenu {
                         routerLink: ['/ng-three/box']
                     },
                     {
-                        label: 'Cube',
-                        routerLink: ['/ng-three/cube']
+                        label: 'Stars',
+                        routerLink: ['/ng-three/stars']
                     },
                     {
                         label: 'AG Grid Website',
