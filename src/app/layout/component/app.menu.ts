@@ -182,9 +182,9 @@ export class AppMenu {
                         routerLink: ['/ng-three/stars']
                     },
                     {
-                        label: 'AG Grid Website',
+                        label: 'Angular Three',
                         // icon: 'pi pi-fw pi-sign-in',
-                        url: 'https://www.ag-grid.com/',
+                        url: 'https://angularthree.org/',
                         target: '_blank'
                     }
                 ]
