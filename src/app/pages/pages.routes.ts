@@ -14,7 +14,11 @@ export default [
         loadChildren: () => import('./pow/pow.routes')
     },
     {
+        path: 'diagrams',
+        loadChildren: () => import('./diagrams/diagrams.routes')
+    },
+    {
         path: '**',
         redirectTo: '/notfound'
-    },
+    }
 ] as Routes;

@@ -1,0 +1,33 @@
+<div class="container-fluid mt-7">
+    <div class="row">
+        <div class="col">
+            <!-- <div class="form-group">
+                <label>Location</label>
+            <select class="form-control" [(ngModel)]="sampleData" (ngModelChanges)="onFacilitySelect($event)"
+                    (change)="onChange($event)">
+                    <option [ngValue]="ONT">ONT</option>
+                    <option [ngValue]="BOS">BOS</option>
+                </select>
+            </div>
+            <hr /> -->
+
+            <app-sankey-d3 [data]="sampleData" [rotate]="rotate" />
+        </div>
+    </div>
+
+    <hr class="my-7" />
+
+    <div class="row">
+        <div class="col">
+            <app-sankey-d3 [data]="facilityInboundData" [rotate]="rotate" [width]="500" [height]="950" />
+        </div>
+    </div>
+
+    <hr class="my-7" />
+
+    <div class="row">
+        <div class="col">
+            <app-sankey-d3 [data]="facilityData" [rotate]="false" />
+        </div>
+    </div>
+</div>

@@ -104,6 +104,15 @@ export class AppMenu {
                         ]
                     },
                     {
+                        label: 'Diagrams',
+                        items: [
+                            {
+                                label: 'Sankey',
+                                routerLink: ['pages/diagrams/sankey']
+                            }
+                        ]
+                    },
+                    {
                         label: 'D3js Website',
                         // icon: 'pi pi-fw pi-sign-in',
                         url: 'https://d3js.org/',
