@@ -180,6 +180,16 @@ export class AppMenu {
             },
 
             {
+                label: 'Plotly.js',
+                items: [
+                    {
+                        label: 'Scatter & Bar',
+                        routerLink: ['/plotlyjs/scatter']
+                    }
+                ]
+            },
+
+            {
                 label: 'Threejs',
                 items: [
                     {

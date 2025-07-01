@@ -22,6 +22,10 @@ export const appRoutes: Routes = [
                 loadChildren: () => import('./app/ag-grid/ag-grid.routes')
             },
             {
+                path: 'plotlyjs',
+                loadChildren: () => import('./app/plotlyjs/plotlyjs.module').then((p) => p.PlotlyjsModule)
+            },
+            {
                 path: 'ng-three',
                 // loadComponent: () => import('./app/experience/stars/stars.component').then((s) => s.StarsComponent),
                 loadChildren: () => import('./app/threejs/threejs.routes'),
