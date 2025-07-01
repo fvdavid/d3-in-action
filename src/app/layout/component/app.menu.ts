@@ -185,6 +185,10 @@ export class AppMenu {
                     {
                         label: 'Scatter & Bar',
                         routerLink: ['/plotlyjs/scatter']
+                    },
+                    {
+                        label: 'Stacked Bar Chart',
+                        routerLink: ['/plotlyjs/stacked-bar-chart']
                     }
                 ]
             },

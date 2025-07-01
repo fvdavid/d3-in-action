@@ -14,9 +14,4 @@ export class ScatterComponent {
         ],
         layout: { autosize: true, title: 'A Fancy Plot' }
     };
-
-    // public graph = {
-    //     data: [{ x: [1, 2, 3], y: [2, 5, 3], type: 'bar' }],
-    //     layout: {autosize: true, title: 'A Fancy Plot'},
-    // };
 }
