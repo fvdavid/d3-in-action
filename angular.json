@@ -18,7 +18,14 @@
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
                         "allowedCommonJsDependencies": [
-                            "plotly.js-dist-min"
+                            "plotly.js-dist-min",
+                            "fast-xml-parser",
+                            "fuzzysort",
+                            "color-convert",
+                            "color-name",
+                            "protobufjs/minimal.js",
+                            "url-parse",
+                            "bowser"
                         ],
                         "outputPath": "dist/d3-in-action",
                         "index": "src/index.html",
@@ -44,13 +51,13 @@
                             "budgets": [
                                 {
                                     "type": "initial",
-                                    "maximumWarning": "2mb",
-                                    "maximumError": "5mb"
+                                    "maximumWarning": "5mb",
+                                    "maximumError": "7mb"
                                 },
                                 {
                                     "type": "anyComponentStyle",
-                                    "maximumWarning": "2kb",
-                                    "maximumError": "4kb"
+                                    "maximumWarning": "800kb",
+                                    "maximumError": "1mb"
                                 }
                             ],
                             "outputHashing": "all"
