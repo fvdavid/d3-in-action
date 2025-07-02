@@ -1,0 +1,16 @@
+<div class="main-container">
+    <div class="editor-container editor-container_classic-editor editor-container_include-style"
+        #editorContainerElement>
+        <div class="editor-container__editor">
+            <div #editorElement>
+                @if(isLayoutReady) {
+                <ckeditor [editor]="Editor" [config]="config" />
+                } @else {
+                <p>
+                    Layout Not Ready Yet
+                </p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

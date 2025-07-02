@@ -192,6 +192,19 @@ export class AppMenu {
                     }
                 ]
             },
+            {
+                label: 'Ckeditor 5',
+                items: [
+                    {
+                        label: 'ckeditor',
+                        routerLink: ['/ckeditor/basic']
+                    },
+                    {
+                        label: 'ckeditor email Plugin',
+                        routerLink: ['/ckeditor/email-premium']
+                    }
+                ]
+            },
 
             {
                 label: 'Threejs',

@@ -26,6 +26,10 @@ export const appRoutes: Routes = [
                 loadChildren: () => import('./app/plotlyjs/plotlyjs.module').then((p) => p.PlotlyjsModule)
             },
             {
+                path: 'ckeditor',
+                loadChildren: () => import('./app/ckeditor/ckeditor5.routes')
+            },
+            {
                 path: 'ng-three',
                 // loadComponent: () => import('./app/experience/stars/stars.component').then((s) => s.StarsComponent),
                 loadChildren: () => import('./app/threejs/threejs.routes'),
