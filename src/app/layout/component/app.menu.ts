@@ -193,6 +193,19 @@ export class AppMenu {
                 ]
             },
             {
+                label: 'Google Charts',
+                items: [
+                    {
+                        label: 'Google Pie',
+                        routerLink: ['/google-charts/google-pie']
+                    },
+                    {
+                        label: 'Google Geo',
+                        routerLink: ['/google-charts/google-geo']
+                    }
+                ]
+            },
+            {
                 label: 'Ckeditor 5',
                 items: [
                     {

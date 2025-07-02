@@ -26,6 +26,10 @@ export const appRoutes: Routes = [
                 loadChildren: () => import('./app/plotlyjs/plotlyjs.module').then((p) => p.PlotlyjsModule)
             },
             {
+                path: 'google-charts',
+                loadChildren: () => import('./app/google-charts/google-charts.routes')
+            },
+            {
                 path: 'ckeditor',
                 loadChildren: () => import('./app/ckeditor/ckeditor5.routes')
             },

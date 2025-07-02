@@ -4,6 +4,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { provideRouter, withEnabledBlockingInitialNavigation, withInMemoryScrolling } from '@angular/router';
 import Aura from '@primeng/themes/aura';
 import { providePrimeNG } from 'primeng/config';
+import { provideGoogleCharts } from 'angular-google-charts';
+
 import { appRoutes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
@@ -26,6 +28,7 @@ export const appConfig: ApplicationConfig = {
                 }
             }
         }),
-        provideAnimationsAsync()
+        provideAnimationsAsync(),
+        provideGoogleCharts()
     ]
 };
